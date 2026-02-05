@@ -5,8 +5,8 @@ export const golfers = [
         subtitle: '(Leader)',
         earnings: 65,
         monthly: '+ £65 in Jan',
-        image: '/assets/images/golfer_caricature_2_1770326025546.png',
-        photo: '/assets/images/phil_photo.png'
+        image: './assets/images/golfer_caricature_2_1770326025546.png',
+        photo: './assets/images/phil_photo.png'
     },
     {
         id: 2,
@@ -14,8 +14,8 @@ export const golfers = [
         subtitle: '',
         earnings: 30,
         monthly: '+ £30 in Jan',
-        image: '/assets/images/golfer_caricature_1_1770326011803.png',
-        photo: '/assets/images/lewis_photo.png'
+        image: './assets/images/golfer_caricature_1_1770326011803.png',
+        photo: './assets/images/lewis_photo.png'
     },
     {
         id: 3,
@@ -23,8 +23,8 @@ export const golfers = [
         subtitle: '',
         earnings: 20,
         monthly: '+ £20 in Jan',
-        image: '/assets/images/golfer_caricature_2_1770326025546.png',
-        photo: '/assets/images/hulse_photo.png'
+        image: './assets/images/golfer_caricature_2_1770326025546.png',
+        photo: './assets/images/hulse_photo.png'
     },
     {
         id: 4,
@@ -32,8 +32,8 @@ export const golfers = [
         subtitle: '',
         earnings: 18.25,
         monthly: '+ £18.25 in Jan',
-        image: '/assets/images/golfer_caricature_4_1770326053225.png',
-        photo: '/assets/images/bully_photo.jpg'
+        image: './assets/images/golfer_caricature_4_1770326053225.png',
+        photo: './assets/images/bully_photo.jpg'
     },
     {
         id: 5,
@@ -41,8 +41,8 @@ export const golfers = [
         subtitle: '',
         earnings: 0,
         monthly: '£0 in Jan',
-        image: '/assets/images/golfer_caricature_3_1770326039558.png',
-        photo: '/assets/images/andy_photo.png'
+        image: './assets/images/golfer_caricature_3_1770326039558.png',
+        photo: './assets/images/andy_photo.png'
     },
     {
         id: 6,
@@ -50,8 +50,8 @@ export const golfers = [
         subtitle: '',
         earnings: 0,
         monthly: '£0 in Jan',
-        image: '/assets/images/golfer_caricature_1_1770326011803.png',
-        photo: '/assets/images/geoff_photo.jpg'
+        image: './assets/images/golfer_caricature_1_1770326011803.png',
+        photo: './assets/images/geoff_photo.jpg'
     },
     {
         id: 7,
@@ -59,8 +59,8 @@ export const golfers = [
         subtitle: '',
         earnings: 0,
         monthly: '£0 in Jan',
-        image: '/assets/images/golfer_caricature_3_1770326039558.png',
-        photo: '/assets/images/tiger_photo.jpg'
+        image: './assets/images/golfer_caricature_3_1770326039558.png',
+        photo: './assets/images/tiger_photo.jpg'
     },
     {
         id: 8,
@@ -68,7 +68,7 @@ export const golfers = [
         subtitle: '',
         earnings: 0,
         monthly: '£0 in Jan',
-        image: '/assets/images/golfer_caricature_4_1770326053225.png',
-        photo: '/assets/images/glyn_photo.png'
+        image: './assets/images/golfer_caricature_4_1770326053225.png',
+        photo: './assets/images/glyn_photo.png'
     },
 ];

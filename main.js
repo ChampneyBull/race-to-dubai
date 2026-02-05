@@ -62,4 +62,21 @@ function renderTrack() {
 document.addEventListener('DOMContentLoaded', () => {
   renderStandings();
   renderTrack();
+
+  // Theme Toggle Logic
+  const themeBtn = document.getElementById('theme-btn');
+  const body = document.body;
+
+  // Check for saved theme
+  if (localStorage.getItem('theme') === 'light') {
+    body.classList.add('light-mode');
+    themeBtn.textContent = '🌙';
+  }
+
+  themeBtn.addEventListener('click', () => {
+    body.classList.toggle('light-mode');
+    const isLight = body.classList.contains('light-mode');
+    themeBtn.textContent = isLight ? '🌙' : '☀️';
+    localStorage.setItem('theme', isLight ? 'light' : 'dark');
+  });
 });
