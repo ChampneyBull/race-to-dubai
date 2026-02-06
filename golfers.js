@@ -13,7 +13,7 @@ export const golfers = [
         name: 'Lewis',
         subtitle: '',
         earnings: 9,
-        monthly: '+ £30 in Jan',
+        monthly: '+ £9 in Jan',
         image: './assets/images/golfer_caricature_1_1770326011803.png',
         photo: './assets/images/lewis_photo.png'
     },
@@ -58,7 +58,7 @@ export const golfers = [
         name: 'Tiger',
         subtitle: '(behind by a nose)',
         earnings: 63.06,
-        monthly: '£0 in Jan',
+        monthly: '£63.06 in Jan',
         image: './assets/images/golfer_caricature_3_1770326039558.png',
         photo: './assets/images/tiger_photo.jpg'
     },
