@@ -5,7 +5,7 @@ export const golfers = [
         subtitle: '(Leader)',
         earnings: 65,
         monthly: '+ £65 in Jan',
-        image: './assets/images/golfer_caricature_2_1770326025546.png',
+        image: './assets/images/phil_caricature.jpg',
         photo: './assets/images/phil_photo.png'
     },
     {
@@ -41,7 +41,7 @@ export const golfers = [
         subtitle: '(Has he even played this year?)',
         earnings: 0,
         monthly: '£0 in Jan',
-        image: './assets/images/golfer_caricature_3_1770326039558.png',
+        image: './assets/images/andy_caricature.jpg',
         photo: './assets/images/andy_photo.png'
     },
     {
