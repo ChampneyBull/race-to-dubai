@@ -15,8 +15,7 @@ export const golfers = [
         earnings: 9,
         monthly: '+ £9 in Jan',
         image: './assets/images/golfer_caricature_1_1770326011803.png',
-        photo: './assets/images/lewis_photo.png',
-        brightness: 1.3
+        // photo: './assets/images/lewis_photo.png'
     },
     {
         id: 3,
@@ -43,8 +42,7 @@ export const golfers = [
         earnings: 0,
         monthly: '£0 in Jan',
         image: './assets/images/golfer_caricature_3_1770326039558.png',
-        photo: './assets/images/andy_photo.png',
-        brightness: 1.3
+        // photo: './assets/images/andy_photo.png'
     },
     {
         id: 6,
@@ -62,8 +60,7 @@ export const golfers = [
         earnings: 63.06,
         monthly: '£63.06 in Jan',
         image: './assets/images/golfer_caricature_3_1770326039558.png',
-        photo: './assets/images/tiger_photo.jpg',
-        brightness: 1.3
+        // photo: './assets/images/tiger_photo.jpg'
     },
     {
         id: 8,
@@ -72,7 +69,6 @@ export const golfers = [
         earnings: 0,
         monthly: '£0 in Jan',
         image: './assets/images/golfer_caricature_4_1770326053225.png',
-        photo: './assets/images/glyn_photo.png',
-        brightness: 1.3
+        // photo: './assets/images/glyn_photo.png'
     },
 ];

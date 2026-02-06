@@ -18,7 +18,7 @@ function renderStandings() {
         <div class="standing-card ${isLeader ? 'is-leader' : ''}">
           <div class="rank">${rank}</div>
           <div class="profile-pic">
-            <img src="${golfer.photo || golfer.image}" alt="${golfer.name}" style="filter: brightness(${golfer.brightness || 1}) contrast(${golfer.brightness ? 1.1 : 1})">
+            <img src="${golfer.photo || golfer.image}" alt="${golfer.name}">
           </div>
           <div class="player-info">
             <div class="player-name">${golfer.name} ${golfer.subtitle}</div>
