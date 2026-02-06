@@ -386,9 +386,9 @@ body.light-mode .track-arrow::after {
 }
 
 /* Small adjustments for the track */
-.track-lane:nth-child(even) {
-    opacity: 0.5;
-}
+/*.track-lane:nth-child(even) { 
+    opacity: 0.5; 
+} */
 
 @keyframes float {
     0% {

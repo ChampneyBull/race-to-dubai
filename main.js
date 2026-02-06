@@ -40,15 +40,13 @@ function renderTrack() {
 
   trackGrid.innerHTML = golfers.map((golfer, index) => {
     const position = (golfer.earnings / MAX_EARNINGS) * TRACK_WIDTH_PERCENT;
-    const needsBrightening = ['Lewis', 'Andy', 'Tiger', 'Glyn'].includes(golfer.name);
-    const brightnessStyle = needsBrightening ? 'filter: brightness(1.3) contrast(1.1);' : '';
 
     // Initial position 0, then animate to actual position
     return `
       <div class="track-lane">
         <div class="golfer-marker" data-target="${position}%" style="left: 0%">
           <div class="name-tag">${golfer.name} £${golfer.earnings}</div>
-          <img src="${golfer.image}" class="caricature" alt="${golfer.name}" style="${brightnessStyle}">
+          <img src="${golfer.image}" class="caricature" alt="${golfer.name}">
         </div>
       </div>
     `;
