@@ -70,10 +70,15 @@ document.addEventListener('DOMContentLoaded', () => {
   const themeBtn = document.getElementById('theme-btn');
   const body = document.body;
 
-  // Check for saved theme
+  // Default to Dark Mode
+  // Only apply light mode if the user has explicitly chosen it before
   if (localStorage.getItem('theme') === 'light') {
     body.classList.add('light-mode');
     themeBtn.textContent = '🌙';
+  } else {
+    // Ensure we are in dark mode (no 'light-mode' class)
+    body.classList.remove('light-mode');
+    themeBtn.textContent = '☀️';
   }
 
   themeBtn.addEventListener('click', () => {
