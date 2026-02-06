@@ -12,7 +12,7 @@ export const golfers = [
         id: 2,
         name: 'Lewis',
         subtitle: '',
-        earnings: 30,
+        earnings: 9,
         monthly: '+ £30 in Jan',
         image: './assets/images/golfer_caricature_1_1770326011803.png',
         photo: './assets/images/lewis_photo.png'
@@ -21,8 +21,8 @@ export const golfers = [
         id: 3,
         name: 'Hulse',
         subtitle: '',
-        earnings: 20,
-        monthly: '+ £20 in Jan',
+        earnings: 0,
+        monthly: '£0 in Jan',
         image: './assets/images/golfer_caricature_2_1770326025546.png',
         photo: './assets/images/hulse_photo.png'
     },
@@ -38,7 +38,7 @@ export const golfers = [
     {
         id: 5,
         name: 'Andy',
-        subtitle: '',
+        subtitle: '(Has he even played this year?)',
         earnings: 0,
         monthly: '£0 in Jan',
         image: './assets/images/golfer_caricature_3_1770326039558.png',
@@ -56,8 +56,8 @@ export const golfers = [
     {
         id: 7,
         name: 'Tiger',
-        subtitle: '',
-        earnings: 0,
+        subtitle: '(behind by a nose)',
+        earnings: 63.06,
         monthly: '£0 in Jan',
         image: './assets/images/golfer_caricature_3_1770326039558.png',
         photo: './assets/images/tiger_photo.jpg'
