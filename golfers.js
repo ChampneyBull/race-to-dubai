@@ -68,7 +68,7 @@ export const golfers = [
         subtitle: '',
         earnings: 0,
         monthly: '£0 in Jan',
-        image: './assets/images/golfer_caricature_4_1770326053225.png',
+        image: './assets/images/glyn_caricature.png',
         photo: './assets/images/glyn_photo.png'
     },
 ];
